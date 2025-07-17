@@ -47,7 +47,7 @@ export const Faq = () => {
   };
 
   return (
-    <section className="bg-black py-16 px-6 sm:px-10 md:px-20 lg:px-40 xl:px-60">
+    <section className="bg-black py-8 md:py-16 px-6 sm:px-10 md:px-20 lg:px-40 xl:px-60">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12 sm:mb-16">
@@ -88,7 +88,8 @@ export const Faq = () => {
                 <h3
                   className="text-white text-sm sm:text-base font-light leading-relaxed tracking-tight pr-4"
                   style={{
-                    fontFamily: 'Unbounded, "Unbounded Placeholder", sans-serif',
+                    fontFamily:
+                      'Unbounded, "Unbounded Placeholder", sans-serif',
                     fontSize: "16px",
                     fontWeight: 300,
                     lineHeight: "24px",
