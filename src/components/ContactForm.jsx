@@ -19,7 +19,7 @@ export const ContactForm = () => {
     const endpoint =
       "https://corsproxy.io/?" +
       encodeURIComponent(
-        "https://script.google.com/macros/s/AKfycbz--8rhEByCfw1j70H_g-NI7ShrwfnN880zBjsGDmbIScHyxTuyHnSgznFrFzid3hep-g/exec"
+        "https://script.google.com/macros/s/AKfycbz--8rhEByCfw1j70H_g-NI7ShrwfnN880zBjsGDmbIScHyxTuyHnSgznFrFzid3hep-g/exec",
       );
 
     try {
@@ -47,10 +47,10 @@ export const ContactForm = () => {
   };
 
   return (
-    <section className="w-full min-h-screen bg-black py-16 overflow-hidden">
+    <section className="w-full min-h-screen bg-black py-8 md:py-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="text-left space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
+          <div className="text-center lg:text-left space-y-6">
             <h2
               className="text-white text-[56px] sm:text-[80px] md:text-[120px] lg:text-[150px] xl:text-[170px] font-normal leading-[1] tracking-tight"
               style={{ fontFamily: "Unbounded" }}
@@ -89,7 +89,9 @@ export const ContactForm = () => {
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs font-medium text-[#888]">Message</label>
+                <label className="text-xs font-medium text-[#888]">
+                  Message
+                </label>
                 <textarea
                   name="message"
                   required
