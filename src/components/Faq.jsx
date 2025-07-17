@@ -50,7 +50,7 @@ export const Faq = () => {
     <section className="bg-black py-8 md:py-16 px-6 sm:px-10 md:px-20 lg:px-40 xl:px-60">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="text-center mb-12 sm:mb-16">
+        <div className="text-center mb-6 md:mb-12 sm:mb-16">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 mb-4">
             <span
               className="text-[#F58327] text-xs font-black uppercase tracking-wide"
