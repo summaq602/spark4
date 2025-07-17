@@ -47,10 +47,10 @@ export const Faq = () => {
   };
 
   return (
-    <section className="bg-black py-16 px-6 sm:px-10 md:px-20 lg:px-40 xl:px-60">
+    <section className="bg-black py-8 md:py-16 px-6 sm:px-10 md:px-20 lg:px-40 xl:px-60">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="text-center mb-12 sm:mb-16">
+        <div className="text-center mb-6 md:mb-12 sm:mb-16">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 mb-4">
             <span
               className="text-[#F58327] text-xs font-black uppercase tracking-wide"
@@ -88,7 +88,8 @@ export const Faq = () => {
                 <h3
                   className="text-white text-sm sm:text-base font-light leading-relaxed tracking-tight pr-4"
                   style={{
-                    fontFamily: 'Unbounded, "Unbounded Placeholder", sans-serif',
+                    fontFamily:
+                      'Unbounded, "Unbounded Placeholder", sans-serif',
                     fontSize: "16px",
                     fontWeight: 300,
                     lineHeight: "24px",
